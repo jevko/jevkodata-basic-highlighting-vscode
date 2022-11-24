@@ -13,7 +13,7 @@
         "languages": [{
             "id": "jevkodata",
             "aliases": ["jevkodata"],
-            "extensions": [".jevkodata"],
+            "extensions": [".jevkodata", ".jevkocfg"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{

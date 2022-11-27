@@ -2,6 +2,7 @@
     "name": "jevkodata-basic-highlighting",
     "displayName": "jevkodata-basic-highlighting",
     "description": "Basic syntax highlighting for .jevkodata",
+    "publisher": "jevko",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.63.0"
@@ -14,6 +15,7 @@
             "id": "jevkodata",
             "aliases": ["jevkodata"],
             "extensions": [".jevkodata", ".jevkocfg"],
+            "firstLine": "#!/usr/bin/env -S jevko format \\[jevkodata\\]",
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
@@ -21,5 +23,10 @@
             "scopeName": "source.jevkodata",
             "path": "./syntaxes/jevkodata.tmLanguage.json"
         }]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jevko/jevkodata-basic-highlighting-vscode.git"
+    },
+    "icon": "icon.png"
 }

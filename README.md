@@ -2,6 +2,18 @@
 
 Basic syntax highlighting for .jevkodata in Visual Studio Code.
 
+NOTE: experimental.
+
+This extension is published to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jevko.jevkodata-basic-highlighting).
+
+## Installation
+
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+```
+ext install jevko.jevkodata-basic-highlighting
+```
+
 ## Features
 
 Basic syntax highlighting for .jevkodata that works in Visual Studio Code.

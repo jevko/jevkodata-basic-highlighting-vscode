@@ -3,7 +3,7 @@
     "displayName": "jevkodata-basic-highlighting",
     "description": "Basic syntax highlighting for .jevkodata",
     "publisher": "jevko",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -28,5 +28,7 @@
         "type": "git",
         "url": "https://github.com/jevko/jevkodata-basic-highlighting-vscode.git"
     },
-    "icon": "icon.png"
+    "icon": "icon.png",
+    "homepage": "https://jevko.org",
+    "keywords": ["jevko", "data", "jevkodata", "syntax", "minimal", "interchange", "configuration", "format", "heredoc", "json", "minimal", "simple", "flexible"]
 }

@@ -30,5 +30,8 @@
     },
     "icon": "icon.png",
     "homepage": "https://jevko.org",
-    "keywords": ["jevko", "data", "jevkodata", "syntax", "minimal", "interchange", "configuration", "format", "heredoc", "json", "minimal", "simple", "flexible"]
+    "keywords": ["jevko", "data", "jevkodata", "syntax", "minimal", "interchange", "configuration", "format", "heredoc", "json", "minimal", "simple", "flexible"],
+    "scripts": {
+        "vscode:prepublish": "jevko syntaxes/jevkodata.jevkodata"
+    }
 }

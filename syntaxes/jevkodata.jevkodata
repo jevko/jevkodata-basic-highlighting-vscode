@@ -26,8 +26,40 @@ patterns [
   [
     include `//#heredoc//
   ]
+  [
+    include `//#number//
+  ]
 ]
 repository [
+  number [
+    match `//(?x)
+      (?<=\[)
+      \s*
+      # regex for a number according to JSON spec:
+      -?
+      (?:
+        0
+        |
+        [1-9]
+        \d*
+      )
+      (?:
+        (?:
+          \.
+          \d+
+        )?
+        (?:
+          [eE]
+          [+-]?
+          \d+
+        )?
+      )?
+      # end of JSON number regex
+      \s*
+      (?=\])
+    //
+    name `//constant.numeric.jevkodata//
+  ]
   digraph [
     match `//`[`\[\]]//
     name `//constant.character.escape.jevkodata//
@@ -68,7 +100,7 @@ repository [
   ]
   keyword [
     name `//keyword.other.jevkodata//
-    match `//true|false|null|nil|seq|list|map//
+    match `//\b(true|false|null|nil|seq|list|map)\b//
   ]
   qstring [
     name `//string.quoted.jevkodata//

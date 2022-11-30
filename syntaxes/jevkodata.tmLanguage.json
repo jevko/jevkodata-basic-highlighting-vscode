@@ -29,7 +29,7 @@
   ],
   "repository": {
     "number": {
-      "match": "(?x)\n      (?<=\\[)\n      \\s*\n      # regex for a number according to JSON spec:\n      -?\n      (?:\n        0\n        |\n        [1-9]\n        \\d*\n      )\n      (?:\n        (?:\n          \\.\n          \\d+\n        )?\n        (?:\n          [eE]\n          [+-]?\n          \\d+\n        )?\n      )?\n      # end of JSON number regex\n      \\s*\n      (?=\\])\n    ",
+      "match": "(?x)\n      (?<=\\[)\\s*\n      # regex for a number according to JSON spec:\n      -?\n      (?:0|[1-9]\\d*)\n      (?:\n        (?:\\.\\d+)?\n        (?:[eE][+-]?\\d+)?\n      )?\n      # end of JSON number regex\n      \\s*(?=\\])\n    ",
       "name": "constant.numeric.jevkodata"
     },
     "digraph": {

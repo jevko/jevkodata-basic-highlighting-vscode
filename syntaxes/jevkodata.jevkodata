@@ -32,31 +32,18 @@ patterns [
 ]
 repository [
   number [
+    ?todo: perhaps allow infinity, nan, optional leading +, _ as digit separators, etc. -- going beyond JSON number syntax
     match `//(?x)
-      (?<=\[)
-      \s*
+      (?<=\[)\s*
       # regex for a number according to JSON spec:
       -?
+      (?:0|[1-9]\d*)
       (?:
-        0
-        |
-        [1-9]
-        \d*
-      )
-      (?:
-        (?:
-          \.
-          \d+
-        )?
-        (?:
-          [eE]
-          [+-]?
-          \d+
-        )?
+        (?:\.\d+)?
+        (?:[eE][+-]?\d+)?
       )?
       # end of JSON number regex
-      \s*
-      (?=\])
+      \s*(?=\])
     //
     name `//constant.numeric.jevkodata//
   ]

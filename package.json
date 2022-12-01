@@ -16,7 +16,11 @@
             "aliases": ["jevkodata"],
             "extensions": [".jevkodata", ".jevkocfg"],
             "firstLine": "#!/usr/bin/env -S jevko format \\[jevkodata\\]",
-            "configuration": "./language-configuration.json"
+            "configuration": "./language-configuration.json",
+            "icon": {
+                "dark": "lang-icon.png",
+                "light": "lang-icon.png"
+            }
         }],
         "grammars": [{
             "language": "jevkodata",
@@ -33,5 +37,9 @@
     "keywords": ["jevko", "data", "jevkodata", "syntax", "minimal", "interchange", "configuration", "format", "heredoc", "json", "minimal", "simple", "flexible"],
     "scripts": {
         "vscode:prepublish": "jevko syntaxes/jevkodata.jevkodata"
+    },
+    "galleryBanner": {
+        "color": "#000000",
+        "theme": "dark"
     }
 }

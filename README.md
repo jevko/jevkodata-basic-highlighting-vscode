@@ -43,7 +43,7 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-See [CHANGELOG.md]
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## Installation of the latest development snapshot directly from the git repository
 

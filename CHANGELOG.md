@@ -4,6 +4,10 @@ All notable changes to the "jevko-basic-highlighting" extension will be document
 
 <!-- Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file. -->
 
+## 0.0.4
+
+Add language icon and theme.
+
 ## 0.0.3
 
 Add highlighting for JSON numbers. 

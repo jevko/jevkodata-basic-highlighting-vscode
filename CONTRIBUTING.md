@@ -10,4 +10,4 @@ DO NOT EDIT THE jevkodata.tmLanguage.json syntax file. Instead edit jevkodata.je
 jevko syntaxes/jevkodata.jevkodata
 ```
 
-This is done automatically on extension publish.
+This is done automatically on extension publish and before launching the extension for debugging (F5).

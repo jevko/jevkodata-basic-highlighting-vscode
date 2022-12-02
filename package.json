@@ -3,7 +3,7 @@
     "displayName": "jevkodata-basic-highlighting",
     "description": "Basic syntax highlighting for .jevkodata",
     "publisher": "jevko",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.63.0"
     },

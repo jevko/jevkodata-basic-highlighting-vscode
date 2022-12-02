@@ -1,6 +1,9 @@
-# jevkodata-basic-highlighting-vscode
+<p style="text-align: center;">
+<img src="jevkodata.png" width="80" height="80" /><br/>
+<a href="https://jevko.org">jevko.org</a>
+</p>
 
-[![jevko logo](lang-icon.png)](https://jevko.org)
+# jevkodata-basic-highlighting-vscode
 
 Basic syntax highlighting for .jevkodata in Visual Studio Code.
 

@@ -18,8 +18,8 @@
             "firstLine": "#!/usr/bin/env -S jevko format \\[jevkodata\\]",
             "configuration": "./language-configuration.json",
             "icon": {
-                "dark": "lang-icon.png",
-                "light": "lang-icon.png"
+                "dark": "jevkodata.png",
+                "light": "jevkodata.png"
             }
         }],
         "grammars": [{
@@ -32,7 +32,7 @@
         "type": "git",
         "url": "https://github.com/jevko/jevkodata-basic-highlighting-vscode.git"
     },
-    "icon": "icon.png",
+    "icon": "jevkodata.png",
     "homepage": "https://jevko.org",
     "keywords": ["jevko", "data", "jevkodata", "syntax", "minimal", "interchange", "configuration", "format", "heredoc", "json", "minimal", "simple", "flexible"],
     "scripts": {

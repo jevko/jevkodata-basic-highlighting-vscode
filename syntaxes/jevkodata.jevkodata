@@ -12,6 +12,9 @@ patterns [
     include `//#disabled//
   ]
   [
+    include `//#disabled-heredoc//
+  ]
+  [
     include `//#directive//
   ]
   [
@@ -64,6 +67,11 @@ repository [
         include `//#brackets-disabled//
       ]
     ]
+  ]
+  disabled-heredoc [
+    name `//comment.jevkoml//
+    begin `/=/\s*(?:\\)?-(?:(?:`[`\[\]])|[^`\[\]])*`/([^/]*)//=/
+    end `/=//\1//=/
   ]
   brackets-disabled [
     name `//comment.jevkodata//

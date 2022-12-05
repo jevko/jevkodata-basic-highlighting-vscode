@@ -1,6 +1,7 @@
 <p align="center" style="text-align: center;">
 <img src="jevkodata.png" width="80" height="80" /><br/>
-<a href="https://jevko.org">jevko.org</a>
+<a href="https://jevko.org">jevko.org</a><br/>
+<span>[EXPERIMENTAL]</span>
 </p>
 
 # [EXPERIMENTAL] jevkodata-basic-highlighting-vscode

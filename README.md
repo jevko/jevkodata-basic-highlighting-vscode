@@ -4,7 +4,7 @@
 <span>[EXPERIMENTAL]</span>
 </p>
 
-# [EXPERIMENTAL] jevkodata-basic-highlighting-vscode
+# jevkodata-basic-highlighting-vscode
 
 Basic syntax highlighting for .jevkodata in Visual Studio Code.
 

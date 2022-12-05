@@ -3,11 +3,9 @@
 <a href="https://jevko.org">jevko.org</a>
 </p>
 
-# jevkodata-basic-highlighting-vscode
+# [EXPERIMENTAL] jevkodata-basic-highlighting-vscode
 
 Basic syntax highlighting for .jevkodata in Visual Studio Code.
-
-NOTE: experimental.
 
 This extension is published to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jevko.jevkodata-basic-highlighting) as well as the [Open VSX Registry](https://open-vsx.org/extension/jevko/jevkodata-basic-highlighting).
 
@@ -25,7 +23,7 @@ To make this extension useful, it is recommended to install [Jevko CLI](https://
 
 ## Related extensions
 
-* jevkoml-basic-highlighting: [Open VSX Registry](https://open-vsx.org/extension/jevko/jevkoml-basic-highlighting) | [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jevko.jevkoml-basic-highlighting)
+* [jevkoml-basic-highlighting](https://github.com/jevko/jevkoml-basic-highlighting-vscode): [Open VSX Registry](https://open-vsx.org/extension/jevko/jevkoml-basic-highlighting) | [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jevko.jevkoml-basic-highlighting)
 
 ## Features
 

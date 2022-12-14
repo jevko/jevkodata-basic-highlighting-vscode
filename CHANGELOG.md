@@ -4,6 +4,10 @@ All notable changes to the "jevko-basic-highlighting" extension will be document
 
 <!-- Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file. -->
 
+## 0.0.7
+
+This extension is deprecated in favor of the Jevko Interface extension.
+
 ## 0.0.6
 
 Add highlighting for heredoc comments/disabled heredocs, e.g.
